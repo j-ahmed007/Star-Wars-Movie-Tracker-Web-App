@@ -29,10 +29,13 @@ body {
 .navbar-nav > li:first-child {
   margin-right: 25px;
 }
-.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
   background-color: transparent;
 }
-.navbar-nav li a:hover, .navbar-nav li a:focus {
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
   background-color: transparent;
 }
 .navbar-nav > li > .dropdown-menu {
@@ -67,14 +70,19 @@ footer .social-media-icons i {
   font-size: 24px;
   transition: 0.5s ease-in-out;
 }
-footer .social-media-icons a:first-child {
+footer .social-media-icons #project-technologies {
+  color: #999;
   margin-right: 20px;
+  font-size: 12px;
+  text-align: right;
 }
-footer .social-media-icons a:last-child:hover i {
-  color: #af0b0c;
-}
-footer .social-media-icons a:first-child:hover i {
-  color: #333;
+footer .social-media-icons .project-technology {
+  margin-left: 5px;
+  padding: 0.25rem 0.5rem;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  border: 2px solid #333;
 }
 
 /* Homepage Hero Section Styles */

@@ -5,7 +5,7 @@ var moviesJSON = require("../movies.json");
 exports.home = function (req, res) {
   var movies = moviesJSON.movies;
   res.render("home", {
-    title: "Star Wars Movie Tracker - Web App By Jawad",
+    title: "Star Wars Movie Tracker - Built By Jawad",
     movies: movies,
   });
 };

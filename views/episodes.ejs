@@ -7,12 +7,15 @@
   <body>
     <!-- Import Header Data -->
     <%- include ('partials/header.ejs') %>
-    <div id="hero-image-single" style="background-image: url('/images/<%= movie.hero_image %>')">
+    <div
+      id="hero-image-single"
+      style="background-image: url('/images/<%= movie.hero_image %>')"
+    >
       <h1 id="hero-title"><%= title %></h1>
     </div>
     <div class="content-padding clearfix">
       <div class="poster-wrapper">
-        <img src="/images/<%= movie.poster %>" class="img-responsive"/>
+        <img src="/images/<%= movie.poster %>" class="img-responsive" />
       </div>
       <div class="description-wrapper">
         <div class="description">
@@ -23,13 +26,14 @@
           <h2 class="movie-header">Characters</h2>
           <ul>
             <% for (var i = 0; i < main_characters.length; i++) { %>
-              <li><%= main_characters[i] %></li>
+            <li><%= main_characters[i] %></li>
             <% } %>
           </ul>
         </div>
       </div>
     </div>
     <!-- Import Footer & Other Website Data -->
-    <%- include ('partials/footer.ejs') %> <%- include ('partials/scripts.ejs') %>
+    <%- include ('partials/footer.ejs') %> <%- include ('partials/scripts.ejs')
+    %>
   </body>
 </html>

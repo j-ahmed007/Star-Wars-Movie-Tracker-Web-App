@@ -15,7 +15,6 @@
       "poster": "episode-1-page-poster.png",
       "hero_image": "episode-1-page-hero.jpg"
     },
-
     {
       "title": "Star Wars: Episode II - Attack of the Clones",
       "episode_number": "2",
@@ -33,7 +32,6 @@
       "poster": "episode-2-page-poster.png",
       "hero_image": "episode-2-page-hero.jpg"
     },
-
     {
       "title": "Star Wars: Episode III - Revenge of the Sith",
       "episode_number": "3",
@@ -51,7 +49,6 @@
       "poster": "episode-3-page-poster.png",
       "hero_image": "episode-3-page-hero.jpg"
     },
-
     {
       "title": "Star Wars: Episode IV - A New Hope",
       "episode_number": "4",
@@ -69,7 +66,6 @@
       "poster": "episode-4-page-poster.png",
       "hero_image": "episode-4-page-hero.jpg"
     },
-
     {
       "title": "Star Wars: Episode V - The Empire Strikes Back",
       "episode_number": "5",
@@ -88,7 +84,6 @@
       "poster": "episode-5-page-poster.png",
       "hero_image": "episode-5-page-hero.jpg"
     },
-
     {
       "title": "Star Wars: Episode VI - Return of the Jedi",
       "episode_number": "6",
